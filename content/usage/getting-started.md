@@ -7,6 +7,7 @@ This page tells you how to get started with Slides as Code CLI and theme, includ
 
 {{< toc >}}
 
+
 ## Installation Requirements
 
 There is no “best” way to install Slides as Code and its requirements on your computer.
@@ -28,6 +29,7 @@ In order to install these tools with another method, please follow related docum
 - [**yq**](https://mikefarah.gitbook.io/yq/) version 4.x and above
 - [**coreutils**](https://www.gnu.org/software/coreutils/) version 8.x and above
 
+
 ## CLI Installation
 
 ### Homebrew
@@ -37,11 +39,13 @@ To download and install the latest version of `sac` command line, [Homebrew](htt
 $ brew install sacproj/sac/sac
 ```
 
+
 ### Tarball
 When installing from the tarball, you have to decide where to install the `sac` script (e.g `/usr/local/bin`).
 
 - Download the tarball `sac-cli.tar.gz` from [releases page](https://github.com/sacproj/sac-cli/releases).
 - Unpack the tarball and copy `sac` script where you decide
+
 
 ### Checking Installation
 Execute following command to check requirements.
@@ -51,6 +55,7 @@ $ sac doctor
 ```
 
 For each tool, `sac doctor` command checks the presence of it and outputs `OK` or `KO` as result. You have to install missing tools in order to get `sac` command line to work as expected.
+
 
 ## Theme Installation
 In order to install latest Slides as Code Theme, execute following command:
@@ -67,6 +72,7 @@ $ sac theme installed
 └── sac
     └── x.y.z
 ```
+
 
 ## Create new Presentation
 Create a new slides Deck with Slides as Code theme in `my-awesome-slides` directory:
@@ -136,13 +142,14 @@ In order to code (with live update) or present your slides deck, execute followi
 $ sac deck code
 ```
 
-### Content Format
+
+## Content Format
 Hugo ❤️ Markdown, but there are times when Markdown falls short.
 
 Instead of writing raw HTML, Hugo created Shortcodes.
 
 A Shortcode is a simple snippet inside a content file
-that will be rendered using a predefined template
+that will be rendered using a predefined template (see [Shortcodes]({{< ref "reference/shortcodes" >}}) page).
 
 ```
 {{</* shortcode parameters >}}
@@ -150,4 +157,22 @@ content
 {{< shortcode */>}}
 ```
 
-VS Code snippets are available in order to ease the use of shortcodes.
+VS Code snippets are available in order to ease the use of shortcodes (see [Snippets]({{< ref "reference/snippets" >}}) page).
+
+
+## Content Source and Rendering
+Each content file should contain `markup: html`.
+The command `sac content new` is taking care of this for you.
+
+``` text
+---
+weight: 10
+markup: "html"
+---
+Markdown with Shortcodes content
+```
+
+`weight` in content file's front-matter is used to sort content files when concatenating them.
+The command `sac content new` is incrementing it by `10` on every execution.
+
+Slides as Code doesn't use Hugo's Markdown renderer, but Reveal.js Markdown renderer.
