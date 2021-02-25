@@ -9,7 +9,7 @@ Slides as Code comes with `sac` command line tool to ease its use.
 
 ## Features
 
-- Command line on macOS, Linux and WSL
+- Command line on Linux, macOS and WSL
 - Content from Markdown, Shortcode
 - Layout with Columns, Boxes
 - Components
