@@ -1,6 +1,6 @@
 # Slides as Code Documentation
 
-See online [Documentation](https://sacproj.github.io/documentation)
+See online [documentation](https://sacproj.github.io/documentation/)
 
 # Authors
 Developed with passion by Stéphane Este-Gracias and great open source [contributors](https://github.com/sacproj/documentation/graphs/contributors).
