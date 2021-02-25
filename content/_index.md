@@ -22,6 +22,13 @@ Slides as Code comes with `sac` command line tool to ease its use.
 - VS Code Snippets
 - Composable Themes, Contents, Parameters and VS Code Snippets.
 
+## Inspirations
+This distribution is inspired by following Hugo themes and projects using Reveal.js:
+
+- [Hugo Theme Reveal.js](https://github.com/RealOrangeOne/hugo-theme-revealjs)
+- [Reveal Hugo](https://github.com/dzello/reveal-hugo)
+- [GitPitch](https://gitpitch.com/)
+
 ## GitHub repositories
 
 - Theme: [sacproj/sac-theme](https://github.com/sacproj/sac-theme)
@@ -30,3 +37,6 @@ Slides as Code comes with `sac` command line tool to ease its use.
 - Demo: [sacproj/demo](https://github.com/sacproj/demo)
 - Homebrew Tap: [sacproj/homebrew-sac](https://github.com/sacproj/homebrew-sac)
 - ACME as sub-theme example: [sacproj/sac-theme-acme](https://github.com/sacproj/sac-theme-acme)
+
+## Acknowledgments
+[Data Essential](https://www.data-essential.com) to give me the time to develop this project.
