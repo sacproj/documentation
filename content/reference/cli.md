@@ -5,7 +5,7 @@ weight: -9
 
 {{< toc >}}
 
-`sac` command line is used to:
+`sac` command-line is used to:
 
 - install, update, delete Slides as Code themes on your computer
 - develop slides deck
