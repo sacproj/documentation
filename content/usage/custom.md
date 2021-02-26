@@ -75,7 +75,7 @@ $ sac theme install github sacproj/sac-theme
 ```
 - Install Slides as Code ACME Theme
 ``` shell
-$ sac theme install git git@github.com:sacproj/sac-theme-acme.git 1.0.0
+$ sac theme install git https://github.com/sacproj/sac-theme-acme.git 1.0.0
 ```
 - Check installed themes
 ``` shell
