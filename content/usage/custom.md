@@ -46,7 +46,7 @@ An example of **Theme** is available on [sac-theme-acme](https://github.com/sacp
 
 ### Hugo Template, Configuration
 ACME theme contains some overrides for **Hugo**:
-- HTML is [`layouts/partials/sac/body.html`](https://github.com/sacproj/sac-theme-acme/blob/main/layouts/partials/sac/body.html) to create a branding layer for the slides.
+- HTML in [`layouts/partials/sac/body.html`](https://github.com/sacproj/sac-theme-acme/blob/main/layouts/partials/sac/body.html) to create a branding layer for the slides.
 - Shortcodes in [`layouts/shortcodes`](https://github.com/sacproj/sac-theme-acme/tree/main/layouts/shortcodes) to manage title and subtitle layers.
 - SCSS in [`assets/sac/scss/custom.scss`](https://github.com/sacproj/sac-theme-acme/blob/main/assets/sac/scss/custom.scss) file.
 - Javascript in [`sac-theme-acme/assets/sac/js/custom.js`](https://github.com/sacproj/sac-theme-acme/blob/main/assets/sac/js/custom.js) to manage `brand` layer.
@@ -72,7 +72,7 @@ $ sac theme install github sacproj/sac-theme
 ```
 - Install Slides as Code ACME Theme
 ``` shell
-$ sac theme install github sacproj/sac-theme-acme
+$ sac theme install git git@github.com:sacproj/sac-theme-acme.git 1.0.0
 ```
 - Check installed themes
 ``` shell
@@ -85,7 +85,7 @@ $ sac theme installed
 ```
 - Create a new slides deck in `example` directory
 ``` shell
-$ sac desk new example sac/2.0.0 acme/1.0.0
+$ sac deck new example sac/2.0.0 acme/1.0.0
 ```
 - Create some slides content files
 ``` shell
