@@ -1,1 +1,26 @@
-/* You can add custom styles here. */
+/* default link color */
+a { color: #ef476f; }
+a:visited { color: #ef476f   }
+
+/* site header */
+.gdoc-header { background: #118ab2; border-color: #073b4c; }
+.gdoc-header__link, .gdoc-header__link:visited { color: #ffffff; }
+
+/* page links */
+.gdoc-page__footer a, .gdoc-page__footer a:visited { color: #1c388e; }
+.gdoc-page__header a, .gdoc-page__header a:visited { color: #1c388e; }
+
+/* site footer */
+.gdoc-footer { background: #073b4c; color: #ffffff; }
+.gdoc-footer__link{ color: #ffd166; }
+.gdoc-footer__link:visited, .gdoc-footer__link:hover { color: #ffd166; }
+
+/* custom shortcodes */
+/* button */
+.gdoc-button { color: #118ab2; }
+.gdoc-button:hover { background-color: #073b4c; border-color: #e66a4e; color: #ffffff; }
+
+/* hint */
+.gdoc-hint.info { background: #d1d7e8; border-color: #324b99; color: 181828; }
+.gdoc-hint.warning { background: #fef5dc; border-color: #e4ba48; color: 181828; }
+.gdoc-hint.danger { background: #fae1db; border-color: #cf5f46; color: 181828; }
