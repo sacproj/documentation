@@ -13,8 +13,11 @@ Hugo Template and Configuration, VS Code Snippets and Contents are the composabl
 
 A **Theme** is a Git repository or tarball that could contains one or more composable parts. Composable part adds or overrides features from previous theme(s) in the configured list (when slides deck has been created by `sac deck new` command).
 
-{{< hint "ok" >}}
-A **Theme** should contain a `VERSION` file that contains one line with its name (`name`) and version (`x.y.z`):
+{{< hint "warning" >}}
+A **Theme** within Git repository could be named `sac-theme-<name>` or simply `<name>`.<br>
+`git describe --tags` command is used to get its version (e.g. `x.y.z`).
+
+A **Theme** within tarball should contain a `VERSION` file that contains one line with its name (`name`) and version (`x.y.z`):
 ``` text
 name/x.y.z
 ```
