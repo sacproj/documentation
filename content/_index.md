@@ -1,14 +1,13 @@
 ---
-title: Introduction
+title: Code your Presentation Slides
 ---
 
-Slides as Code is a [Hugo](https://gohugo.io/) theme integrating an opinionated distribution of [Reveal.js](https://revealjs.com/).
+**Slides as Code** is a [Hugo](https://gohugo.io/) theme integrating an opinionated distribution of [Reveal.js](https://revealjs.com/).
 
 {{< hint "info" >}}
 [<img src="hugo-logo-wide.svg" height="50" alt="Hugo">](https://gohugo.io/)
 
 [Hugo](https://gohugo.io/) is one of the most popular open-source [static site generators](https://jamstack.org/generators/).
-
 
 [<img src="reveal-white-text.svg" height="50" alt="Reveal.js">](https://revealjs.com/)
 
@@ -21,7 +20,7 @@ You can find a demo at [https://sacproj.github.io/demo/](https://sacproj.github.
 
 ## Features
 
-- command-line on Linux, macOS and WSL
+- Command-line on Linux, macOS and WSL
 - Content from Markdown, Shortcode
 - Layout with Columns, Boxes
 - Components
@@ -35,7 +34,7 @@ You can find a demo at [https://sacproj.github.io/demo/](https://sacproj.github.
     - [ttyd](https://github.com/tsl0922/ttyd)
     - [code-server](https://github.com/cdr/code-server)
 - VS Code Snippets
-- Composable Themes, Contents, Parameters and VS Code Snippets.
+- Composable Template, Configuration, VS Code Snippets and Contents.
 
 ## Inspirations
 This distribution is inspired by following Hugo themes and projects using Reveal.js:
@@ -46,12 +45,12 @@ This distribution is inspired by following Hugo themes and projects using Reveal
 
 ## GitHub repositories
 
-- Theme: [sacproj/sac-theme](https://github.com/sacproj/sac-theme)
 - CLI: [sacproj/sac-cli](https://github.com/sacproj/sac-cli)
+- Base Theme: [sacproj/sac-theme](https://github.com/sacproj/sac-theme)
 - Documentation: [sacproj/documentation](https://github.com/sacproj/documentation)
 - Demo: [sacproj/demo](https://github.com/sacproj/demo)
 - Homebrew Tap: [sacproj/homebrew-sac](https://github.com/sacproj/homebrew-sac)
-- ACME as sub-theme example: [sacproj/sac-theme-acme](https://github.com/sacproj/sac-theme-acme)
+- ACME as Theme example: [sacproj/sac-theme-acme](https://github.com/sacproj/sac-theme-acme)
 
 ## Acknowledgments
 {{< hint "info" >}}

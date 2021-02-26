@@ -10,10 +10,10 @@ This page tells you how to get started with Slides as Code CLI and theme, includ
 
 ## Installation Requirements
 
-There is no “best” way to install Slides as Code and its requirements on your computer.
+There is no “best” way to install **Slides as Code** and its requirements on your computer.
 You should use the method that works best for your use case.
 
-The `sac` command-line is a Bash 4.x script targeting Linux, macOS (or WSL) and requires **bash**, **hugo**, **jq**, **yq** and **coreutils**.
+The `sac` command line is a Bash 4.x script targeting Linux, macOS (or WSL) and requires **bash**, **hugo**, **jq**, **yq** and **coreutils**.
 
 To download and install them, [Homebrew](https://brew.sh/) can be used on macOS (or Linux).
 
@@ -33,7 +33,7 @@ In order to install these tools with another method, please follow related docum
 ## CLI Installation
 
 ### Homebrew
-To download and install the latest version of `sac` command-line, [Homebrew](https://brew.sh/) can be used on macOS (or Linux).
+To download and install the latest version of `sac` command line, [Homebrew](https://brew.sh/) can be used on macOS (or Linux).
 
 ``` shell
 $ brew install sacproj/sac/sac
@@ -54,7 +54,7 @@ Execute following command to check requirements.
 $ sac doctor
 ```
 
-For each tool, `sac doctor` command checks the presence of it and outputs `OK` or `KO` as result. You have to install missing tools in order to get `sac` command-line to work as expected.
+For each tool, `sac doctor` command checks the presence of it and outputs `OK` or `KO` as result. You have to install missing tools in order to get `sac` command line to work as expected.
 
 
 ## Theme Installation
@@ -78,7 +78,7 @@ $ sac theme installed
 Create a new slides Deck with Slides as Code theme in `my-awesome-slides` directory:
 
 ``` shell
-$ sac desk new my-awesome-slides sac-theme/x.y.z
+$ sac deck new my-awesome-slides sac-theme/x.y.z
 ```
 
 Go to created repository

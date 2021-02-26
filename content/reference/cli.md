@@ -1,6 +1,6 @@
 ---
 title: CLI
-weight: -9
+weight: 1
 ---
 
 {{< toc >}}

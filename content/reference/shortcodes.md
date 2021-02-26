@@ -1,6 +1,6 @@
 ---
 title: Shortcodes
-weight: -8
+weight: 2
 ---
 
 Hugo loves Markdown because of its simple content format, but there are times when Markdown falls short.
