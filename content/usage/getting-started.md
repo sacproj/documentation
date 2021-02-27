@@ -18,17 +18,18 @@ The `sac` command line is a Bash 4.x script targeting Linux, macOS (or WSL) and 
 To download and install them, [Homebrew](https://brew.sh/) can be used on macOS (or Linux).
 
 ``` shell
-$ brew install bash hugo git jq yq coreutils
+$ brew install bash coreutils git hugo jq tree yq
 ```
 
 In order to install these tools with another method, please follow related documentation:
 
 - [**bash**](https://www.gnu.org/software/bash/manual/html_node/Installing-Bash.html) version 4.x and above
-- [**hugo**](https://gohugo.io/getting-started/installing/) version 0.80 and above
-- [**git**](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) version 2.x and above
-- [**jq**](https://stedolan.github.io/jq/download/) version 1.6 and above
-- [**yq**](https://mikefarah.gitbook.io/yq/) version 4.x and above
 - [**coreutils**](https://www.gnu.org/software/coreutils/) version 8.x and above
+- [**git**](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) version 2.x and above
+- [**hugo**](https://gohugo.io/getting-started/installing/) version 0.80 and above
+- [**jq**](https://stedolan.github.io/jq/download/) version 1.6 and above
+- [**tree**](http://mama.indstate.edu/users/ice/tree/) version 1.8.0 and above
+- [**yq**](https://mikefarah.gitbook.io/yq/) version 4.x and above
 
 
 ## CLI Installation
