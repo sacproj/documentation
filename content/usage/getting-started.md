@@ -7,8 +7,9 @@ This page tells you how to get started with Slides as Code CLI and theme, includ
 
 {{< toc >}}
 
+## CLI Installation
 
-## Installation Requirements
+### Installation Requirements
 
 There is no “best” way to install **Slides as Code** and its requirements on your computer.
 You should use the method that works best for your use case.
@@ -32,8 +33,6 @@ In order to install these tools with another method, please follow related docum
 - [**yq**](https://mikefarah.gitbook.io/yq/) version 4.x and above
 
 
-## CLI Installation
-
 ### Homebrew
 To download and install the latest version of `sac` command line, [Homebrew](https://brew.sh/) can be used on macOS (or Linux).
 
@@ -48,7 +47,6 @@ When installing from the tarball, you have to decide where to install the `sac` 
 - Download the tarball `sac-cli.tar.gz` from [releases page](https://github.com/sacproj/sac-cli/releases).
 - Unpack the tarball and copy `sac` script where you decide
 
-
 ### Checking Installation
 Execute following command to check requirements.
 
@@ -58,6 +56,20 @@ $ sac doctor
 
 For each tool, `sac doctor` command checks the presence of it and outputs `OK` or `KO` as result. You have to install missing tools in order to get `sac` command line to work as expected.
 
+{{< hint "info" >}}
+A **container image** is available at [sacproj/sac](https://hub.docker.com/r/sacproj/sac).
+It could be used with following function.
+``` shell
+function sac() { \
+  docker run --rm \
+    -e SAC_DECK_CODE_HUGO_ARGS="--bind 0.0.0.0" \
+    -v $(pwd):/home/linuxbrew/sac \
+    -v $HOME/.sac/themes:/usr/local/share/sac/themes \
+    -p 1313:1313 \
+    -w /home/linuxbrew/sac \
+    -it sacproj/sac:2.0.6 sac "$@"; }
+```
+{{< /hint >}}
 
 ## Theme Installation
 In order to install latest Slides as Code Theme, execute following command:
