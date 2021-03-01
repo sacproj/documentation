@@ -171,3 +171,15 @@ Set the size of element with `<percent>` value from one of following values:
 ### stretch
 Sometimes it's desirable to have a component, like an image or video, stretch to consume as much space as possible within a given slide.
 This can be done by adding the stretch class to a component. Only first descendant of a slide can be stretched.
+
+
+## Reveal Layout
+See [layout](https://revealjs.com/layout/) documentation page from **Reveal.js** for further information about following classes.
+
+### r-stack
+
+### r-fit-text
+
+### r-stretch
+
+### r-frame
