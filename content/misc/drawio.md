@@ -3,7 +3,7 @@ title: Draw.io
 weight: 2
 ---
 
-[**Diagrams.net**](https://about.diagram.net/) (previously known as **Draw.io**) is a professional, open source diagramming with online or desktop application without registration.
+[**Diagrams.net**](https://www.diagrams.net/) (previously known as **Draw.io**) is a professional, open source diagramming with online or desktop application without registration.
 
 ## FAQ
 ### How to import Lucidchart diagrams into draw.io?
