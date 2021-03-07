@@ -7,18 +7,23 @@ This page tells you how to get started with Slides as Code CLI and theme, includ
 
 {{< toc >}}
 
+{{< hint "info" >}}
+## Homebrew as package manager
+Since [Homebrew](https://brew.sh/) decided to merge Linuxbrew into Homebrew  (see [related blog post](https://brew.sh/2019/02/02/homebrew-2.0.0/)), in my opinion, with [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) (WSL), HomeBrew becomes a de facto multi-platform package manager.
+
+So, [Homebrew](https://brew.sh/) can be used on Linux, macOS, and WSL.
+
+However, there is no “best” way to install **Slides as Code** and its requirements on your computer.
+You should use the method that works best for your use case.
+{{< /hint >}}
+
 ## Command Line
 
 ### CLI Installation
 
 #### Installation Requirements
 
-There is no “best” way to install **Slides as Code** and its requirements on your computer.
-You should use the method that works best for your use case.
-
-The `sac` command line is a Bash 4.x script targeting Linux, macOS (or WSL) and requires **bash**, **hugo**, **jq**, **yq** and **coreutils**.
-
-To download and install them, [Homebrew](https://brew.sh/) can be used on macOS (or Linux).
+The `sac` command line is a Bash 4.x script targeting Linux, macOS, and WSL. It requires **bash**, **coreutils**, **git**, **hugo**, **jq**, **tree** and **yq**.
 
 ``` shell
 $ brew install bash coreutils git hugo jq tree yq
@@ -36,7 +41,7 @@ In order to install these tools with another method, please follow related docum
 
 
 #### Homebrew
-To download and install the latest version of `sac` command line, [Homebrew](https://brew.sh/) can be used on macOS (or Linux).
+To download and install the latest version of `sac` command line, [Homebrew](https://brew.sh/) can be used on Linux, macOS, and WSL.
 
 ``` shell
 $ brew install sacproj/sac/sac
