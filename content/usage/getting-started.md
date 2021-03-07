@@ -9,7 +9,7 @@ This page tells you how to get started with Slides as Code CLI and theme, includ
 
 {{< hint "info" >}}
 ## Homebrew as package manager
-Since [Homebrew](https://brew.sh/) decided to merge Linuxbrew into Homebrew  (see [related blog post](https://brew.sh/2019/02/02/homebrew-2.0.0/)), in my opinion, with [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) (WSL), HomeBrew becomes a de facto multi-platform package manager.
+Since [Homebrew](https://brew.sh/) decided to merge Linuxbrew into Homebrew  (see [related blog post](https://brew.sh/2019/02/02/homebrew-2.0.0/)), in my opinion, with [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) (WSL), HomeBrew becomes a de facto multi-platform package manager for additional software.
 
 So, [Homebrew](https://brew.sh/) can be used on Linux, macOS, and WSL.
 
