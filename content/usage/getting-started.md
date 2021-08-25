@@ -52,7 +52,14 @@ $ brew install sacproj/sac/sac
 When installing from the tarball, you have to decide where to install the `sac` script (e.g `/usr/local/bin`).
 
 - Download the tarball `sac-cli.tar.gz` from [releases page](https://github.com/sacproj/sac-cli/releases).
-- Unpack the tarball and copy `sac` script where you decide
+- Unpack the tarball, copy `sac` and `pdf.js` scripts where you decide with following tree.
+
+``` shell
+├── bin
+│   └── sac
+└── libexec
+    └── pdf.js
+```
 
 #### Checking Installation
 Execute following command to check requirements.
