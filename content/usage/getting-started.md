@@ -105,7 +105,7 @@ $ sac theme installed
 Create a new slides Deck with Slides as Code theme in `my-awesome-slides` directory:
 
 ``` shell
-$ sac deck new my-awesome-slides sac-theme/x.y.z
+$ sac deck new my-awesome-slides sac/x.y.z
 ```
 
 Go to created repository
